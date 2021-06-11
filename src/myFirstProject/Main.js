@@ -1,9 +1,12 @@
 import React from 'react'
+import KonuEkle from "./KonuEkle";
+import Konular from "./Konular";
 
 function Main() {
     return (
         <div className="main">
-          Main  
+          <KonuEkle />
+          <Konular />
         </div>
     )
 }
